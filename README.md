@@ -1,30 +1,13 @@
-# afterburner
-GAL chip programmer for Arduino
-![Board image](https://github.com/ole00/afterburner/raw/master/img/afterburner_new_design.jpg "afterburner")
+### afterburner
 
-This is a GAL IC programmer software that allows to program GAL IC chips
-from various manufcaturers. It is based on work of several other people:
 
- Bruce Abbott: 
-     https://web.archive.org/web/20220121030038/http://www.bhabbott.net.nz/atfblast.html
 
- Manfred Winterhoff: 
-     http://www.armory.com/%7Erstevew/Public/Pgmrs/GAL/_ClikMe1st.htm
- 
- Yorck Thiele:
-     https://www.ythiee.com/2021/06/06/galmate-hardware/
+## 1.st READ THIS  [HCG18](https://www.homecomputer.group/index/2023/july-2023)
 
- Michael Dreher:
-     https://github.com/nospam2000/afterburner.git
 
-who did the most of the hard work of deciphering and publishing the programming
-protocol of these chips. Some of their early programs were Windows based and relied on
-presence of parallel port (LPT). Afterburner was written for Linux OS 
-(also works on Win32/64, Mac OSX64), and requires serial connection to
-Arduino UNO, which does the programming of the GAL chip.
 
-**Update: ver.0.5.8 improved calibration alogrithm and resolution for mcp4151 digi pot.
-Please re-calibrate your Afterburner as the previsouly stored calibration data are invalid.**
+This is an Arduino shield to program GALs
+
 
 Supported GAL chips:
 ---------------------
